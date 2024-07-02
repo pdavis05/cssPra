@@ -3,22 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Document</title> 
+    <link rel="stylesheet" href="styles.css">
+    
+    <style>
+        #header {
+            background-color: blue;
+        }
+    </style>
 </head>
+
 <body>
-</body>
-</html>
+
 <div id="container">
     <div id="header"> 
         <h1> My Website </h1>
     </div>
     <div id="content"> 
         <div id="nav"> 
-            <h3> Navigation </h3>
+            <h3 style="color: white;"> Navigation </h3>
             <ul>
-                <li> Home </li>
-                <li> About </li>
-                <li> COntact </li>
+                <li> <a class="selected" href=""> Home </a></li>
+                <li> <a class="selected" href=""> About </a></li>
+                <li> <a class="selected" href="">  COntact </a></li>
             </ul>
         </div>
 
@@ -37,4 +44,5 @@
     Copyright &copy; 2024 
 </div>
   
-
+</body>
+</html>
